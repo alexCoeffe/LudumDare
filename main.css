@@ -102,7 +102,8 @@
 	background: url(PorteAvions.png)no-repeat top center;
 	top : 352px;
 	z-index:  200;
-	animation: moveB5 1.7s;
+	animation-name: moveB5;
+	animation-duration:  1.7s;
 	animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: linear;

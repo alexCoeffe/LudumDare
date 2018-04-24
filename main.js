@@ -152,6 +152,7 @@ var yBateaux5= bateaux5.position["l"];
 var yBateaux32= bateaux32.position["l"];
 var yBateaux4= bateaux4.position["l"];
 var score= Number($('h3').html().replace('SCORE: ', ''));
+var vitesseBateaux5= Number(bateaux5.elem.css('animation-duration').replace('s', ''));
 
 function init() {
 	isMoveUp= false;
@@ -241,6 +242,8 @@ function collision() {
 		init();
 		score += 1;
 		$('h3').html('SCORE: '+ score);
+		vitesseBateaux5 += 0.1;
+		bateaux5.elem.css('animation-duration', vitesseBateaux5 + 's');
 
 	}
 	if (character.elem.position().left >= Math.round(bateaux2.elem.position().left) - 32 && character.elem.position().left <= Math.round(bateaux2.elem.position().left) + bateaux2.elem.width() && y == yBateaux2) {
