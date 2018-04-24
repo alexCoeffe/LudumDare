@@ -288,7 +288,7 @@ function collision() {
 		score = 0;
 		$('h3').html('SCORE: '+ score);
 	}
-	if (character.elem.position().top >= 640) {
+	if (character.elem.position().top >= 608) {
 		alert('You Loose');
 		init();
 		score = 0;
