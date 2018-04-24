@@ -260,6 +260,22 @@ function collision() {
 		alert('You Loose');
 		init();
 	}
+	if (character.elem.position().left >= 640) {
+		alert('You Loose');
+		init();
+	}
+	if (character.elem.position().left <= -32) {
+		alert('You Loose');
+		init();
+	}
+	if (character.elem.position().top >= 640) {
+		alert('You Loose');
+		init();
+	}
+	if (character.elem.position().top <= -32) {
+		alert('You Loose');
+		init();
+	}
 }
 
 init();
