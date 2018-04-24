@@ -151,6 +151,7 @@ var yBateaux31= bateaux31.position["l"];
 var yBateaux5= bateaux5.position["l"];
 var yBateaux32= bateaux32.position["l"];
 var yBateaux4= bateaux4.position["l"];
+var score= Number($('h3').html().replace('SCORE: ', ''));
 
 function init() {
 	isMoveUp= false;
@@ -237,44 +238,64 @@ function noMove(evt) {
 
 function collision() {
 	if (x == xObjectif && y == yObjectif) {
-		alert('You Win');
 		init();
+		score += 1;
+		$('h3').html('SCORE: '+ score);
+
 	}
 	if (character.elem.position().left >= Math.round(bateaux2.elem.position().left) - 32 && character.elem.position().left <= Math.round(bateaux2.elem.position().left) + bateaux2.elem.width() && y == yBateaux2) {
 		alert('You Loose');
 		init();
+		score = 0;
+		$('h3').html('SCORE: '+ score);
 	}
 	if (character.elem.position().left >= Math.round(bateaux31.elem.position().left) - 32 && character.elem.position().left <= Math.round(bateaux31.elem.position().left )+ bateaux31.elem.width()  && y == yBateaux31) {
 		alert('You Loose');
 		init();
+		score = 0;
+		$('h3').html('SCORE: '+ score);
 	}
 	if (character.elem.position().left >= Math.round(bateaux5.elem.position().left) - 32 && character.elem.position().left <= Math.round(bateaux5.elem.position().left) + bateaux5.elem.width()  && y == yBateaux5) {
 		alert('You Loose');
 		init();
+		score = 0;
+		$('h3').html('SCORE: '+ score);
 	}
 	if (character.elem.position().left >= Math.round(bateaux32.elem.position().left) - 32 && character.elem.position().left <= Math.round(bateaux32.elem.position().left) + bateaux32.elem.width() && y == yBateaux32) {
 		alert('You Loose');
 		init();
+		score = 0;
+		$('h3').html('SCORE: '+ score);
 	}
 	if (character.elem.position().left >= Math.round(bateaux4.elem.position().left) - 32 && character.elem.position().left <=Math.round(bateaux4.elem.position().left) + bateaux4.elem.width() && y == yBateaux4) {
 		alert('You Loose');
 		init();
+		score = 0;
+		$('h3').html('SCORE: '+ score);
 	}
 	if (character.elem.position().left >= 640) {
 		alert('You Loose');
 		init();
+		score = 0;
+		$('h3').html('SCORE: '+ score);
 	}
 	if (character.elem.position().left <= -32) {
 		alert('You Loose');
 		init();
+		score = 0;
+		$('h3').html('SCORE: '+ score);
 	}
 	if (character.elem.position().top >= 640) {
 		alert('You Loose');
 		init();
+		score = 0;
+		$('h3').html('SCORE: '+ score);
 	}
 	if (character.elem.position().top <= -32) {
 		alert('You Loose');
 		init();
+		score = 0;
+		$('h3').html('SCORE: '+ score);
 	}
 }
 

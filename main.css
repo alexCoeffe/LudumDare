@@ -3,6 +3,7 @@
 	position : relative;
 	width : calc(32px * 20);
 	height : calc(32px * 20);
+	background: url(water.png) no-repeat top center;
 }
 
 .tile {
@@ -120,4 +121,10 @@
 	top : 32px;
 	left : 512px;
 	z-index:  200;
+}
+
+h3 {
+	font-size: 32px;
+	z-index: 200;
+	padding: 18px;
 }
