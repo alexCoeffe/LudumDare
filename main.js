@@ -152,6 +152,10 @@ var yBateaux5= bateaux5.position["l"];
 var yBateaux32= bateaux32.position["l"];
 var yBateaux4= bateaux4.position["l"];
 var score= Number($('h3').html().replace('SCORE: ', ''));
+var vitesseBateaux2= Number(bateaux2.elem.css('animation-duration').replace('s', ''));
+var vitesseBateaux31= Number(bateaux31.elem.css('animation-duration').replace('s', ''));
+var vitesseBateaux32= Number(bateaux32.elem.css('animation-duration').replace('s', ''));
+var vitesseBateaux4= Number(bateaux4.elem.css('animation-duration').replace('s', ''));
 var vitesseBateaux5= Number(bateaux5.elem.css('animation-duration').replace('s', ''));
 
 function init() {
@@ -242,9 +246,16 @@ function collision() {
 		init();
 		score += 1;
 		$('h3').html('SCORE: '+ score);
-		vitesseBateaux5 += 0.1;
+		vitesseBateaux2 -= 0.2;
+		bateaux2.elem.css('animation-duration', vitesseBateaux2 + 's');
+		vitesseBateaux31 -= 0.2;
+		bateaux31.elem.css('animation-duration', vitesseBateaux31 + 's');
+		vitesseBateaux32 -= 0.2;
+		bateaux32.elem.css('animation-duration', vitesseBateaux32 + 's');
+		vitesseBateaux4 -= 0.2;
+		bateaux4.elem.css('animation-duration', vitesseBateaux4 + 's');
+		vitesseBateaux5 -= 0.2;
 		bateaux5.elem.css('animation-duration', vitesseBateaux5 + 's');
-
 	}
 	if (character.elem.position().left >= Math.round(bateaux2.elem.position().left) - 32 && character.elem.position().left <= Math.round(bateaux2.elem.position().left) + bateaux2.elem.width() && y == yBateaux2) {
 		alert('You Loose');
