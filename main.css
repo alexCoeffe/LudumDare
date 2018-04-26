@@ -18,7 +18,7 @@
 	height : 32px;
 	background: url(Chat.png) no-repeat top center;
 	top : 576px;
-	left : 288px;
+	left : 320px;
 	z-index:  300;
 	transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) all 100ms;
 }
@@ -120,7 +120,7 @@
 	height : 32px;
 	background: url(fish.png)no-repeat top center;
 	top : 32px;
-	left : 512px;
+	left : 320px;
 	z-index:  200;
 }
 

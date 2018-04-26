@@ -3,7 +3,7 @@ var character = {
 	elem		: $('.character'),
 	position 	: {
 		l 		: 18,
-		c 		: 9
+		c 		: 10
 	}
 }
 
@@ -57,7 +57,7 @@ var objectif = {
 	elem		: $('.objectif'),
 	position 	: {
 		l 		: 1,
-		c 		: 16
+		c 		: 10
 	}
 }
 
@@ -165,9 +165,9 @@ function init() {
 	isMoveLeft= false;
 	character.elem.css({
 		'top'	: 576,
-		'left'	: 288
+		'left'	: 320
 	});
-	x= 9;
+	x= 10;
 	y= 18;
 	if (timer != null) {
 		clearInterval(timer);
