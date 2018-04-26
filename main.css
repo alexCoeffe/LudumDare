@@ -37,8 +37,8 @@
 }
 
 @keyframes moveB2 {
-	from {left: 544px;}
-	to {left: 32px;}
+	from {left: 576px;}
+	to {left: 0px;}
 }
 
 .bateaux31 {
@@ -55,8 +55,8 @@
 }
 
 @keyframes moveB31 {
-	from {left: 32px;}
-	to {left: 512px;}
+	from {left: 0px;}
+	to {left: 544px;}
 }
 
 .bateaux32 {
@@ -73,8 +73,8 @@
 }
 
 @keyframes moveB32 {
-	from {left: 512px;}
-	to {left: 32px;}
+	from {left: 544px;}
+	to {left: 0px;}
 }
 
 .bateaux4 {
@@ -91,8 +91,8 @@
 }
 
 @keyframes moveB4 {
-	from {left: 32px;}
-	to {left: 480px;}
+	from {left: 0px;}
+	to {left: 512px;}
 }
 
 .bateaux5 {
@@ -110,8 +110,8 @@
 }
 
 @keyframes moveB5 {
-	from {left: 448px;}
-	to {left: 32px;}
+	from {left: 480px;}
+	to {left: 0px;}
 }
 
 .objectif {
