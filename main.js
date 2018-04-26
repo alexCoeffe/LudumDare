@@ -262,54 +262,144 @@ function collision() {
 		init();
 		score = 0;
 		$('h3').html('SCORE: '+ score);
+		vitesseBateaux2 = 1.6;
+		bateaux2.elem.css('animation-duration', vitesseBateaux2 + 's');
+		vitesseBateaux31 = 1.9;
+		bateaux31.elem.css('animation-duration', vitesseBateaux31 + 's');
+		vitesseBateaux32 = 1.7;
+		bateaux32.elem.css('animation-duration', vitesseBateaux32 + 's');
+		vitesseBateaux4 = 2;
+		bateaux4.elem.css('animation-duration', vitesseBateaux4 + 's');
+		vitesseBateaux5 = 2.3;
+		bateaux5.elem.css('animation-duration', vitesseBateaux5 + 's');
 	}
 	if (character.elem.position().left >= Math.round(bateaux31.elem.position().left) - 32 && character.elem.position().left <= Math.round(bateaux31.elem.position().left )+ bateaux31.elem.width()  && y == yBateaux31) {
 		alert('You Loose');
 		init();
 		score = 0;
 		$('h3').html('SCORE: '+ score);
+		vitesseBateaux2 = 1.6;
+		bateaux2.elem.css('animation-duration', vitesseBateaux2 + 's');
+		vitesseBateaux31 = 1.9;
+		bateaux31.elem.css('animation-duration', vitesseBateaux31 + 's');
+		vitesseBateaux32 = 1.7;
+		bateaux32.elem.css('animation-duration', vitesseBateaux32 + 's');
+		vitesseBateaux4 = 2;
+		bateaux4.elem.css('animation-duration', vitesseBateaux4 + 's');
+		vitesseBateaux5 = 2.3;
+		bateaux5.elem.css('animation-duration', vitesseBateaux5 + 's');
 	}
 	if (character.elem.position().left >= Math.round(bateaux5.elem.position().left) - 32 && character.elem.position().left <= Math.round(bateaux5.elem.position().left) + bateaux5.elem.width()  && y == yBateaux5) {
 		alert('You Loose');
 		init();
 		score = 0;
 		$('h3').html('SCORE: '+ score);
+		vitesseBateaux2 = 1.6;
+		bateaux2.elem.css('animation-duration', vitesseBateaux2 + 's');
+		vitesseBateaux31 = 1.9;
+		bateaux31.elem.css('animation-duration', vitesseBateaux31 + 's');
+		vitesseBateaux32 = 1.7;
+		bateaux32.elem.css('animation-duration', vitesseBateaux32 + 's');
+		vitesseBateaux4 = 2;
+		bateaux4.elem.css('animation-duration', vitesseBateaux4 + 's');
+		vitesseBateaux5 = 2.3;
+		bateaux5.elem.css('animation-duration', vitesseBateaux5 + 's');
 	}
 	if (character.elem.position().left >= Math.round(bateaux32.elem.position().left) - 32 && character.elem.position().left <= Math.round(bateaux32.elem.position().left) + bateaux32.elem.width() && y == yBateaux32) {
 		alert('You Loose');
 		init();
 		score = 0;
 		$('h3').html('SCORE: '+ score);
+		vitesseBateaux2 = 1.6;
+		bateaux2.elem.css('animation-duration', vitesseBateaux2 + 's');
+		vitesseBateaux31 = 1.9;
+		bateaux31.elem.css('animation-duration', vitesseBateaux31 + 's');
+		vitesseBateaux32 = 1.7;
+		bateaux32.elem.css('animation-duration', vitesseBateaux32 + 's');
+		vitesseBateaux4 = 2;
+		bateaux4.elem.css('animation-duration', vitesseBateaux4 + 's');
+		vitesseBateaux5 = 2.3;
+		bateaux5.elem.css('animation-duration', vitesseBateaux5 + 's');
 	}
 	if (character.elem.position().left >= Math.round(bateaux4.elem.position().left) - 32 && character.elem.position().left <=Math.round(bateaux4.elem.position().left) + bateaux4.elem.width() && y == yBateaux4) {
 		alert('You Loose');
 		init();
 		score = 0;
 		$('h3').html('SCORE: '+ score);
+		vitesseBateaux2 = 1.6;
+		bateaux2.elem.css('animation-duration', vitesseBateaux2 + 's');
+		vitesseBateaux31 = 1.9;
+		bateaux31.elem.css('animation-duration', vitesseBateaux31 + 's');
+		vitesseBateaux32 = 1.7;
+		bateaux32.elem.css('animation-duration', vitesseBateaux32 + 's');
+		vitesseBateaux4 = 2;
+		bateaux4.elem.css('animation-duration', vitesseBateaux4 + 's');
+		vitesseBateaux5 = 2.3;
+		bateaux5.elem.css('animation-duration', vitesseBateaux5 + 's');
 	}
 	if (character.elem.position().left >= 640) {
 		alert('You Loose');
 		init();
 		score = 0;
 		$('h3').html('SCORE: '+ score);
+		vitesseBateaux2 = 1.6;
+		bateaux2.elem.css('animation-duration', vitesseBateaux2 + 's');
+		vitesseBateaux31 = 1.9;
+		bateaux31.elem.css('animation-duration', vitesseBateaux31 + 's');
+		vitesseBateaux32 = 1.7;
+		bateaux32.elem.css('animation-duration', vitesseBateaux32 + 's');
+		vitesseBateaux4 = 2;
+		bateaux4.elem.css('animation-duration', vitesseBateaux4 + 's');
+		vitesseBateaux5 = 2.3;
+		bateaux5.elem.css('animation-duration', vitesseBateaux5 + 's');
 	}
 	if (character.elem.position().left <= -32) {
 		alert('You Loose');
 		init();
 		score = 0;
 		$('h3').html('SCORE: '+ score);
+		vitesseBateaux2 = 1.6;
+		bateaux2.elem.css('animation-duration', vitesseBateaux2 + 's');
+		vitesseBateaux31 = 1.9;
+		bateaux31.elem.css('animation-duration', vitesseBateaux31 + 's');
+		vitesseBateaux32 = 1.7;
+		bateaux32.elem.css('animation-duration', vitesseBateaux32 + 's');
+		vitesseBateaux4 = 2;
+		bateaux4.elem.css('animation-duration', vitesseBateaux4 + 's');
+		vitesseBateaux5 = 2.3;
+		bateaux5.elem.css('animation-duration', vitesseBateaux5 + 's');
 	}
 	if (character.elem.position().top >= 608) {
 		alert('You Loose');
 		init();
 		score = 0;
 		$('h3').html('SCORE: '+ score);
+		vitesseBateaux2 = 1.6;
+		bateaux2.elem.css('animation-duration', vitesseBateaux2 + 's');
+		vitesseBateaux31 = 1.9;
+		bateaux31.elem.css('animation-duration', vitesseBateaux31 + 's');
+		vitesseBateaux32 = 1.7;
+		bateaux32.elem.css('animation-duration', vitesseBateaux32 + 's');
+		vitesseBateaux4 = 2;
+		bateaux4.elem.css('animation-duration', vitesseBateaux4 + 's');
+		vitesseBateaux5 = 2.3;
+		bateaux5.elem.css('animation-duration', vitesseBateaux5 + 's');
 	}
 	if (character.elem.position().top <= -32) {
 		alert('You Loose');
 		init();
 		score = 0;
 		$('h3').html('SCORE: '+ score);
+		vitesseBateaux2 = 1.6;
+		bateaux2.elem.css('animation-duration', vitesseBateaux2 + 's');
+		vitesseBateaux31 = 1.9;
+		bateaux31.elem.css('animation-duration', vitesseBateaux31 + 's');
+		vitesseBateaux32 = 1.7;
+		bateaux32.elem.css('animation-duration', vitesseBateaux32 + 's');
+		vitesseBateaux4 = 2;
+		bateaux4.elem.css('animation-duration', vitesseBateaux4 + 's');
+		vitesseBateaux5 = 2.3;
+		bateaux5.elem.css('animation-duration', vitesseBateaux5 + 's');
 	}
 }
 
