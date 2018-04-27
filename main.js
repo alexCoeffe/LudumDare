@@ -165,7 +165,8 @@ function init() {
 	isMoveLeft= false;
 	character.elem.css({
 		'top'	: 576,
-		'left'	: 320
+		'left'	: 320,
+		'background' : 'url(ChatTop.png)no-repeat top center'
 	});
 	x= 10;
 	y= 18;
@@ -211,15 +212,19 @@ function move(evt) {
 	switch (evt.keyCode) {
 		case 37:
 			isMoveLeft= true;
+			character.elem.css('background', 'url(ChatLeft.png)no-repeat top center');
 			break;
 		case 38:
 			isMoveUp= true;
+			character.elem.css('background', 'url(ChatTop.png)no-repeat top center');
 			break;
 		case 39:
 			isMoveRight= true;
+			character.elem.css('background', 'url(ChatRight.png)no-repeat top center');
 			break;
 		case 40:
 			isMoveDown= true;
+			character.elem.css('background', 'url(ChatBottom.png)no-repeat top center');
 			break;
 	}
 }
